@@ -1,0 +1,38 @@
+# Compilação .NET
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+publish/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Testes
+TestResults/
+coverage/
+*.trx
+*.coverage
+*.coveragexml
+
+# Logs
+logs/
+*.log
+
+# Configurações locais e segredos
+appsettings.Local.json
+appsettings.*.local.json
+secrets.json
+
+# Sistema operacional
+Thumbs.db
+.DS_Store
+
+# Pacotes
+packages/
+*.nupkg
